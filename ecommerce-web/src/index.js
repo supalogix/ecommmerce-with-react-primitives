@@ -1,9 +1,9 @@
 import React from "react"
 import {render} from "react-dom"
 import { View, Text, Image, StyleSheet } from 'react-primitives';
-import Foo from "foo"
+import Product from "product"
 
 render(
-    <Foo />,
+    <Product />,
     document.getElementById("root")
 )
