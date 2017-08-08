@@ -1,0 +1,37 @@
+Feature: Login
+
+	Scenario: Successful Authentication
+
+	Scenario: Bad Username or Password
+
+Feature: Add Product to Cart
+
+	Scenario: Happy Path
+
+Feature: Remove Product from Cart
+
+	Scenario: Happy Path
+
+Feature: Modify Cart
+
+	Scenario: Happy Path 
+
+Feature: Annonymous Checkout
+
+	Scenario: Successful Authentication
+
+	Scenario: Bad Username or Password
+
+	Scenario: Abandon Checkout
+
+Feature: Authenticated Checkout 
+
+	Scenario: Checkout Approved
+
+	Scenario: Checkout Abandoned
+
+Feature: Finalize Checkout
+
+	Scenario: Credit Card Verified
+
+	Scenario: Credit Card Denied
