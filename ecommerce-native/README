@@ -1,0 +1,4 @@
+``bash
+yarn run haul start -- --platform ios
+react-native run-ios
+``
