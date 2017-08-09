@@ -3,15 +3,25 @@ import { View, Text, Image, StyleSheet } from 'react-primitives';
 
 export default class Product extends React.Component {
   render() {
+    const {
+      title,
+      byLine,
+      actualPrice,
+      retailPrice,
+      deliveryDate,
+      rating,
+      productFeatures
+    } = this.props
+
     return (
       <View style={styles.product}>
-        <Text>Title</Text>
-        <Text>By Line</Text>
-        <Text>Actual Price</Text>
-        <Text>Retail Price</Text>
-        <Text>Delivery Date</Text>
-        <Text>Rating</Text>
-        <Text>Product Features Short</Text>
+        <Text style={styles.title}>{title}</Text>
+        <Text>{byLine}</Text>
+        <Text>{actualPrice}</Text>
+        <Text>{retailPrice}</Text>
+        <Text>{deliveryDate}</Text>
+        <Text>{rating}</Text>
+        <Text>{productFeatures}</Text>
       </View>
     );
   }
@@ -19,7 +29,13 @@ export default class Product extends React.Component {
 
 const styles = StyleSheet.create({
   product: {
-    width: 100,
-    height: 100,
+    borderRadius: 4,
+    borderWidth: 2,
+    borderColor: '#d6d7da',
+  },
+  title: {
+    fontSize: 19,
+    fontWeight: 'bold',
+    color: 'red',
   }
 });
