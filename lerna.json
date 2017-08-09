@@ -1,0 +1,11 @@
+{
+  "lerna": "2.0.0-rc.5",
+  "packages": [
+    "packages/components/*",
+    "ecommerce-web/src",
+    "ecommerce-native/ios_src",
+    "ecommerce-native/android_src",
+    "ecommerce-sketch/src"
+  ],
+  "version": "0.0.0"
+}
