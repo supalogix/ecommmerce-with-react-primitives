@@ -10,7 +10,9 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-native": "^0.47.1",
-    "react-primitives": "^0.4.3"
+    "react-primitives": "^0.4.3",
+    "react-sketchapp": "^0.12.1",
+    "react-test-renderer": "^15.6.1"
   },
   "devDependencies": {
     "lerna": "^2.0.0-rc.5"

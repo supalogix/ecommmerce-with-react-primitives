@@ -1539,6 +1539,10 @@ css-in-js-utils@^1.0.3:
   dependencies:
     hyphenate-style-name "^1.0.2"
 
+css-layout@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/css-layout/-/css-layout-1.1.1.tgz#ada5bb8c901e475d41043a88e034ade54d939392"
+
 csurf@~1.8.3:
   version "1.8.3"
   resolved "https://registry.yarnpkg.com/csurf/-/csurf-1.8.3.tgz#23f2a13bf1d8fce1d0c996588394442cba86a56a"
@@ -1702,6 +1706,12 @@ error-ex@^1.2.0:
   resolved "https://registry.yarnpkg.com/error-ex/-/error-ex-1.3.1.tgz#f855a86ce61adc4e8621c3cda21e7a7612c3a8dc"
   dependencies:
     is-arrayish "^0.2.1"
+
+error-stack-parser@^2.0.0:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/error-stack-parser/-/error-stack-parser-2.0.1.tgz#a3202b8fb03114aa9b40a0e3669e48b2b65a010a"
+  dependencies:
+    stackframe "^1.0.3"
 
 errorhandler@~1.4.2:
   version "1.4.3"
@@ -2327,7 +2337,7 @@ inquirer@^3.0.6:
     strip-ansi "^4.0.0"
     through "^2.3.6"
 
-invariant@^2.2.0, invariant@^2.2.1:
+invariant@^2.2.0, invariant@^2.2.1, invariant@^2.2.2:
   version "2.2.2"
   resolved "https://registry.yarnpkg.com/invariant/-/invariant-2.2.2.tgz#9e1f56ac0acdb6bf303306f338be3b204ae60360"
   dependencies:
@@ -3062,6 +3072,10 @@ multipipe@^0.1.2:
   dependencies:
     duplexer2 "0.0.2"
 
+murmur2js@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/murmur2js/-/murmur2js-1.0.0.tgz#8f836c365d020d74e5cae5b96af2e768fa48d659"
+
 mute-stream@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
@@ -3613,6 +3627,27 @@ react-proxy@^1.1.7:
     lodash "^4.6.1"
     react-deep-force-update "^1.0.0"
 
+react-sketchapp:
+  version "0.12.1"
+  resolved "https://registry.yarnpkg.com/react-sketchapp/-/react-sketchapp-0.12.1.tgz#3e3f818572dc9dc50dd84891ce695f38b99eab85"
+  dependencies:
+    css-layout "^1.1.1"
+    error-stack-parser "^2.0.0"
+    invariant "^2.2.2"
+    murmur2js "^1.0.0"
+    normalize-css-color "^1.0.1"
+    prop-types "^15.5.8"
+    sketch-constants "^1.0.2"
+    sketchapp-json-flow-types "github:jongold/sketchapp-json-flow-types#gold/fix-SJShapeLayer"
+    sketchapp-json-plugin "^0.0.3"
+
+react-test-renderer:
+  version "15.6.1"
+  resolved "https://registry.yarnpkg.com/react-test-renderer/-/react-test-renderer-15.6.1.tgz#026f4a5bb5552661fd2cc4bbcd0d4bc8a35ebf7e"
+  dependencies:
+    fbjs "^0.8.9"
+    object-assign "^4.1.0"
+
 react-timer-mixin@^0.13.2, react-timer-mixin@^0.13.3:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/react-timer-mixin/-/react-timer-mixin-0.13.3.tgz#0da8b9f807ec07dc3e854d082c737c65605b3d22"
@@ -3995,6 +4030,25 @@ simple-plist@^0.2.1:
     bplist-parser "0.1.1"
     plist "2.0.1"
 
+sketch-constants@^1.0.2:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/sketch-constants/-/sketch-constants-1.1.0.tgz#5c2fec53b59b32e7f6f107176e3e54985ad6647d"
+
+sketchapp-json-flow-types@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/sketchapp-json-flow-types/-/sketchapp-json-flow-types-0.0.2.tgz#226496e79f6a3845b89021d666b090ab4558d7d0"
+
+"sketchapp-json-flow-types@github:jongold/sketchapp-json-flow-types#gold/fix-SJShapeLayer":
+  version "0.0.3"
+  resolved "https://codeload.github.com/jongold/sketchapp-json-flow-types/tar.gz/47522004ded62312e5717c19f0398666c28b780d"
+
+sketchapp-json-plugin@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/sketchapp-json-plugin/-/sketchapp-json-plugin-0.0.3.tgz#4ca4175eab4116ec370d346d90e3ef49216985af"
+  dependencies:
+    invariant "^2.2.2"
+    sketchapp-json-flow-types "^0.0.2"
+
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
@@ -4080,6 +4134,10 @@ sshpk@^1.7.0:
     ecc-jsbn "~0.1.1"
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
+
+stackframe@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/stackframe/-/stackframe-1.0.3.tgz#fe64ab20b170e4ce49044b126c119dfa0e5dc7cc"
 
 stacktrace-parser@^0.1.3:
   version "0.1.4"
