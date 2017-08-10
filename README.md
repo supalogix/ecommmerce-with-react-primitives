@@ -2,36 +2,36 @@
 
 ## Setup Dependencies
 
-``bash
+```bash
 yarn
 lerna bootstrap    
-``
+```
 
 ## Demo Web
 
-``bash
+```bash
 cd ecommerce-web
 yarn build
 cd dist
 browser-sync start --server --files="*"
-``
+```
 
 ## Demo IOS
 
-``bash
+```bash
 yarn run haul start -- --platform ios
 react-native run-ios
-``
+```
 
 ## Demo Android
 
-``bash
+```bash
 yarn run haul start -- --platform android
 react-native run-android
-``
+```
 
 ## Demo Sketch
 
-``bash
+```bash
 yarn render
-``
+```
