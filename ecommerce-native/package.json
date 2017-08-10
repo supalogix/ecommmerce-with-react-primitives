@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
-    "test": "jest",
-    "haul": "haul start"
+    "haul": "haul start",
+    "test": "mocha --compilers js:babel-register ios_src/*.spec.js android_src/*.spec.js"
   },
   "dependencies": {
     "react": "16.0.0-alpha.12",
