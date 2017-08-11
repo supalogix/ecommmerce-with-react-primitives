@@ -21,9 +21,7 @@ const styles = StyleSheet.create({
     boxShadow: "0 0 0 2px #d5d5d5",
     shadowOpacity: 2,
     shadowColor: "#d5d5d5",
-    shadowRadius: 2,
-    marginTop: 48,
-    marginLeft: 15 
+    shadowRadius: 2
    }
 });
 

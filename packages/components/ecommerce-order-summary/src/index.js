@@ -33,6 +33,9 @@ export default class Product extends React.Component {
             <Text style={styles.label}>Order Total</Text>
             <Text style={styles.value}>{orderTotal}</Text>
         </View>
+        <View style={styles.checkout}>
+          <Text style={styles.text}>Checkout</Text>
+        </View>
       </View>
     );
   }
@@ -41,6 +44,7 @@ export default class Product extends React.Component {
 const styles = StyleSheet.create({
   orderSummary: {
     width: 200,
+    height: 'auto',
     borderRadius: 4,
     borderWidth: 2,
     borderColor: '#d6d7da',
@@ -54,5 +58,16 @@ const styles = StyleSheet.create({
   label: {
     fontWeight: 'bold',
   },
-  value: { }
+  value: { },
+  checkout: {
+    marginTop: 16,
+    padding: 16,
+    color: "#fff",
+    backgroundColor: "#ff8a00"
+  },
+  text: {
+    fontWeight: 'bold',
+    fontSize: 16,
+    textAlign: 'center'
+  }
 });

@@ -1,0 +1,13 @@
+{
+  "name": "ecommerce-cart",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "prepublish": "babel src --out-dir lib"
+  },
+  "dependencies": {
+      "ecommerce-order-summary": "1.0.0",
+      "shipping-method": "1.0.0"
+  }
+}
