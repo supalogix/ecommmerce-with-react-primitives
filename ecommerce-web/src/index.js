@@ -7,7 +7,15 @@ import CartItem from "ecommerce-cart-item"
 import ShippingMethod from "shipping-method"
 import Cart from "ecommerce-cart"
 
+const styles = {
+    page: {
+        marginLeft: 16
+    }
+}
+
 render(
-    <Cart />,
+    <View style={styles.page}>
+        <Cart />
+    </View>,
     document.getElementById("root")
 )

@@ -5,10 +5,19 @@ import {
   View
 } from 'react-primitives';
 import Product from "ecommerce-product"
-import Cart from "ecommerce-cart"
+
+const props = {
+    title: "Title",
+    byLine: "By Line",
+    actualPrice: "Actual Price",
+    retailPrice: "Retail Price",
+    deliveryDate: "Delivery Date",
+    rating: "Rating",
+    productFeatures: "Product Features"
+}
 
 export default class ecommerceNative extends Component {
   render() {
-    return ( <Cart />)
+    return ( <Product {...props} />)
   }
 }
