@@ -12,7 +12,8 @@
     "react-native": "^0.47.1",
     "react-primitives": "^0.4.3",
     "react-sketchapp": "^0.12.1",
-    "react-test-renderer": "^15.6.1"
+    "react-test-renderer": "^15.6.1",
+    "styled-components": "^2.1.2"
   },
   "devDependencies": {
     "babel-register": "^6.24.1",

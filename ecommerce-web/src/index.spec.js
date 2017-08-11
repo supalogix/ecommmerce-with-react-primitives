@@ -16,6 +16,7 @@ describe("Product", () => {
         }
 
         const proxy = ProductProxy(<Product {...props} />)
+
         expect(proxy.title).to.equal(props.title)
         expect(proxy.byLine).to.equal(props.byLine)
         expect(proxy.actualPrice).to.equal(props.actualPrice)
