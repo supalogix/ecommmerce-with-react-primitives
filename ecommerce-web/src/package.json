@@ -2,6 +2,7 @@
     "dependencies": {
         "ecommerce-product": "1.0.0",
         "ecommerce-product-proxy": "1.0.0",
-        "ecommerce-order-summary": "1.0.0"
+        "ecommerce-order-summary": "1.0.0",
+        "ecommerce-cart-item": "1.0.0"
     }
 }

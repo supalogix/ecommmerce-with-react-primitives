@@ -16,12 +16,12 @@ export default class Product extends React.Component {
     return (
       <View style={styles.product}>
         <Text style={styles.title}>{title}</Text>
-        <Text>{byLine}</Text>
-        <Text>{actualPrice}</Text>
-        <Text>{retailPrice}</Text>
-        <Text>{deliveryDate}</Text>
-        <Text>{rating}</Text>
-        <Text>{productFeatures}</Text>
+        <Text style={styles.byLine}>{byLine}</Text>
+        <Text style={styles.actualPrice}>{actualPrice}</Text>
+        <Text style={styles.retailPrice}>{retailPrice}</Text>
+        <Text style={styles.deliveryDate}>{deliveryDate}</Text>
+        <Text style={styles.rating}>{rating}</Text>
+        <Text style={styles.description}>{productFeatures}</Text>
       </View>
     );
   }

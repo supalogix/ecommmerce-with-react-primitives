@@ -1,6 +1,6 @@
 import React from "react"
 import { View, Text, Image, StyleSheet, Touchable } from 'react-primitives';
-import RadioInput from '../../radio-input/src/index.js';
+import RadioInput from 'ecommerce-radio-input';
 
 export default class ShippingMethod extends React.Component {
   constructor(props) {
@@ -15,10 +15,6 @@ export default class ShippingMethod extends React.Component {
         <Image style={styles.image} source="https://s.images-iherb.com/i/ss/UPS-Grd.gif">
         </Image>
       </View>
-      // <Touchable>
-      //   <View style={styles.product}>
-      //   </View>
-      // </Touchable>
     );
   }
 }

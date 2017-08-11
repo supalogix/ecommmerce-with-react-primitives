@@ -1,12 +1,5 @@
 import React from "react"
 import { View, Text, Image, StyleSheet } from 'react-primitives';
-import styled from "styled-components/primitives"
-
-const Attribute = styled.View`
-    display: "flex";
-    flex-direction: "row-reverse";
-    justify-content: "space-between";
-`;
 
 export default class Product extends React.Component {
   render() {
